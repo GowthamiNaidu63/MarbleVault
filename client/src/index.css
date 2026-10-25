@@ -1,0 +1,7 @@
+/* Global reset. Keep this file separate from App.css. */
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+html { min-width: 320px; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+#root { min-height: 100vh; }
+button, input, select, textarea { font: inherit; }
